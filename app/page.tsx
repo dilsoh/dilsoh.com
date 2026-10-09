@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion, type Variants } from "framer-motion";
 import { Calculator, FileSearch, Handshake, type LucideIcon } from "lucide-react";
 
@@ -184,7 +183,7 @@ export default function Home() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.25 }}
-          className="mx-auto grid max-w-7xl gap-10 px-5 py-14 md:px-6 md:py-16 lg:grid-cols-[0.95fr_0.72fr] lg:items-center"
+          className="mx-auto grid max-w-7xl gap-9 px-5 py-14 md:px-6 md:py-16 lg:grid-cols-[0.85fr_1.7fr] lg:items-center"
         >
           <motion.div variants={fadeUp}>
             <p className="mb-4 text-[11px] font-semibold uppercase tracking-[0.22em] text-[#B67A2C]">About Us</p>
@@ -192,25 +191,14 @@ export default function Home() {
             <p className="max-w-xl text-base leading-7 text-black/72 md:text-lg md:leading-8">
               Dils Outdoor Holdings acquires and operates high-quality billboard assets in strong markets. We focus on disciplined underwriting, operational improvement, and clear communication with sellers.
             </p>
-
-            <motion.div variants={staggerIn} className="mt-8 grid gap-3 sm:grid-cols-2">
-              <Pillar number="01" title="Focused" body="Billboard assets with clear upside." />
-              <Pillar number="02" title="Disciplined" body="Underwritten for long-term value." />
-              <Pillar number="03" title="Partnered" body="Clear process and reliable execution." />
-              <Pillar number="04" title="Operator Led" body="Active ownership with attention to detail." />
-            </motion.div>
           </motion.div>
 
-          <motion.figure variants={fadeUp} className="relative mx-auto w-full max-w-md overflow-hidden border border-black/10 bg-[#F4EFE7] shadow-[0_24px_80px_rgba(0,0,0,0.10)] lg:max-w-none">
-            <Image
-              src="/alex-dils-founder.png"
-              alt="Alex Dils"
-              width={1145}
-              height={1374}
-              sizes="(min-width: 1024px) 34vw, (min-width: 768px) 448px, 100vw"
-              className="aspect-[4/5] h-full w-full object-cover object-center"
-            />
-          </motion.figure>
+          <motion.div variants={staggerIn} className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-0">
+            <Pillar number="01" title="Focused" body="Billboard assets with clear upside." />
+            <Pillar number="02" title="Disciplined" body="Underwritten for long-term value." />
+            <Pillar number="03" title="Partnered" body="Clear process and reliable execution." />
+            <Pillar number="04" title="Operator Led" body="Active ownership with attention to detail." />
+          </motion.div>
         </motion.div>
       </section>
 
