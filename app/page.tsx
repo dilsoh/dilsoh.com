@@ -88,13 +88,13 @@ export default function Home() {
             <motion.h1 variants={fadeUp} className="font-serif text-[3.25rem] leading-[1.12] tracking-[-0.035em] sm:text-6xl md:text-8xl md:leading-[1.08]">
               Building a focused
               <br className="hidden sm:block" />
-              {" "}portfolio of digital
+              {" "}portfolio of turnkey
               <br className="hidden sm:block" />
               {" "}billboard assets.
             </motion.h1>
             <motion.div variants={fadeUp} className="mt-7 h-px w-20 bg-[#B67A2C] md:mt-9 md:w-24" />
             <motion.p variants={fadeUp} className="mt-6 max-w-2xl text-lg font-medium leading-8 text-black/76 md:mt-7 md:text-xl md:leading-9">
-              Dils Outdoor Holdings acquires and operates digital billboard assets with clear operational and revenue upside.
+              Dils Outdoor Holdings acquires and operates billboard assets with clear operational and revenue upside.
             </motion.p>
           </motion.div>
         </div>
@@ -126,7 +126,7 @@ export default function Home() {
 
           <motion.div variants={staggerIn} className="max-w-xl space-y-3">
             {[
-              "Digital billboard assets — single units or small portfolios",
+              "Turnkey billboard assets - single units or small portfolios",
               "Indiana and surrounding high-traffic corridors",
               "Stable permits, leases, and site control",
               "Documented traffic counts and clear visibility",
@@ -189,12 +189,12 @@ export default function Home() {
             <p className="mb-4 text-[11px] font-semibold uppercase tracking-[0.22em] text-[#B67A2C]">About Us</p>
             <h2 className="mb-5 font-serif text-4xl tracking-[-0.04em] md:text-5xl">Long-term outdoor media ownership.</h2>
             <p className="max-w-xl text-base leading-7 text-black/72 md:text-lg md:leading-8">
-              Dils Outdoor Holdings acquires and operates high-quality digital billboard assets in strong markets. We focus on disciplined underwriting, operational improvement, and clear communication with sellers.
+              Dils Outdoor Holdings acquires and operates high-quality billboard assets in strong markets. We focus on disciplined underwriting, operational improvement, and clear communication with sellers.
             </p>
           </motion.div>
 
           <motion.div variants={staggerIn} className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-0">
-            <Pillar number="01" title="Focused" body="Digital billboard assets with clear upside." />
+            <Pillar number="01" title="Focused" body="Billboard assets with clear upside." />
             <Pillar number="02" title="Disciplined" body="Underwritten for long-term value." />
             <Pillar number="03" title="Partnered" body="Clear process and reliable execution." />
             <Pillar number="04" title="Operator Led" body="Active ownership with attention to detail." />
@@ -214,7 +214,7 @@ export default function Home() {
             <motion.h2 variants={fadeUp} className="font-serif text-4xl leading-tight tracking-[-0.04em] md:text-5xl">Have an opportunity to discuss?</motion.h2>
             <motion.div variants={fadeUp} className="mt-6 h-px w-20 bg-[#C89146]" />
             <motion.p variants={fadeUp} className="mt-6 max-w-md text-base leading-7 text-white/70 md:text-lg md:leading-8">
-              Interested in selling a digital billboard?
+              Interested in selling a billboard asset or portfolio?
             </motion.p>
             <motion.a
               variants={subtleFadeUp}

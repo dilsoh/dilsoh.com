@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Dils Outdoor Holdings",
-  description: "Disciplined ownership of digital billboard assets.",
+  description: "Disciplined ownership of billboard assets.",
 };
 
 export default function RootLayout({
